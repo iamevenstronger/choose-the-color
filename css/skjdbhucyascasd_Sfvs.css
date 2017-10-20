@@ -1,9 +1,54 @@
 body{
     background-color: #e0dfdf;
 }
+#result{
+    font-size: 20pt ;
+    font-weight: bold ;
+    text-align: center;
+}
+
+.resLink{
+   width: 80%;
+}
+th{
+  text-align: center;  
+  background-color: #11043f;
+  color: white;
+}
+.usernameBox{
+   width: 300px;
+   font-size: 18pt;
+   text-align: center;
+   font-weight: bold;
+}
+.colorBoxs{
+    width: 100px !important;
+    text-align: center;
+    font-size: 15t;
+    font-weight: bold;
+}
+pre{
+    text-align: left;
+    background-color: #b9b9b9;
+    font-size: 15pt;
+}
+tbody {
+    overflow: auto;
+    text-align: center;
+    padding: 2px;
+}
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+.resTable{
+    border: 0px ;
+    background-color: #e9e9e9 ;
+    width: 80%;
+    font-size: 10pt;
+}
 .navBar{
     background-color: #292828;
     padding: 5px;
+    width: 100%;
 }
 .header{
     color: #bebebe;
@@ -11,7 +56,7 @@ body{
 }
 .username{
     font-weight: bold;
-    color: #000000;
+    color: #551066;
     font-size: 15pt;
 }
 .heading{
